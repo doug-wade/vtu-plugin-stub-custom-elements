@@ -1,0 +1,26 @@
+{
+  "name": "vtu-plugin-stub-custom-elements",
+  "version": "0.0.1",
+  "description": "A @vue/test-utils plugin for automatically stubbing custom elements",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.3",
+    "@jest/globals": "^29.7.0",
+    "@vue/test-utils": "^2.4.2",
+    "@vue/vue3-jest": "^29.2.6",
+    "babel-jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jest": "^29.7.0",
+    "jsdom": "^22.1.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2",
+    "vue": "^3.3.8"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "yarn run build && jest index.test.ts"
+  },
+  "keywords": ["vue", "vue-test-utils"],
+  "author": "Douglas Wade <douglas.b.wade@gmail.com>",
+  "license": "MIT"
+}

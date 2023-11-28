@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "moduleResolution": "NodeNext",
+      "module": "NodeNext",
+      "target": "ES2015"
+    },
+    "include": ["index.ts"]
+}
